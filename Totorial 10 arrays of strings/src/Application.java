@@ -22,7 +22,7 @@ public class Application {
 					/* just an "address" and a default value of text is null*/	
 	
 		String[] texts = new String[2]; /*java assigns those 2 elements default values of null and they are just references as above */
-		System.out.println(texts);
+		System.out.println(texts[0]);
 		
 		texts[0] = "one";
 		System.out.println(texts[0]);
