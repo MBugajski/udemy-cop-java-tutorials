@@ -51,6 +51,5 @@ public class App {
 		}
 		//%s is for strings, %f is for floating points. '.#' limits the number of decimal places in the float. It rounds too.
 		System.out.printf("\nPrice of %s is %.2f dollars.", "apples", 3.231231);
-		System.out.printf("\nPrice of %s is %2.2f dollars.", "apples", 1233.231231);
 	}
 }

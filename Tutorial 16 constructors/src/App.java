@@ -46,6 +46,5 @@ public class App {
 		
 		new Machine("Annie", 3, 4);
 		
-		System.out.println(machine1);
 	}
 }

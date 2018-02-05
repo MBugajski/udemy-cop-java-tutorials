@@ -20,6 +20,8 @@ public class App {
 		sam.jump(7);
 		sam.move("West", 12.4);
 		
+		
+		//You can add parameters and replace the basic method ones as long as it is the same data type
 		String greeting = "Hello there.";
 		sam.speak(greeting);
 		

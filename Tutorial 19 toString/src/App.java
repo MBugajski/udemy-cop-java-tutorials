@@ -10,12 +10,22 @@ class Frog{
 		this.id = id;
 		this.name = name;
 	}
+	
+	//Concatenating strings with StringBuilder is much more efficient. 
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append(id) .append(": ") .append(name);
 		//return id + ": " + name;
 		return sb.toString();
+	}	
+		
+	//You can also output this by formatting the return instead of appending it. Only one toString() per class tho
+	/*
+	public String toString() {
+		return String.format(""%4d: %s", id, name);
+		
 	}
+	*/
 }
 
 class Cat {
