@@ -2,11 +2,13 @@ class Plant {
 	
 	private String name;
 	private boolean alive = true;
+	private static int count = 7;
+	//finals can be public, as there no danger of cross-linkage/spagetti code 
 	public static final int ID = 7;
 	
 	
-	//Only public methods should be one the end user is supposed to use. Everything else should be private, protected or package-access, depending on needs. 
-	public String gerData() {
+	//Only public methods should be one the end user is supposed to use. Everything else should be private (always if possible!), protected or package-access, depending on needs. 
+	public String getData() {
 		String data = "sone stuff" + calculatedGrowthForecast();
 		return data;
 	}
@@ -39,7 +41,8 @@ class Plant {
 		return ID;
 	}
 
-	
+	//Idea is to hide the inner workings of the app within classes and only provide a public API - Application Programming Interface
+	//You don't want tightly coupled classes - classes calling eachother stuff all the time (creates tangled mess)
 	
 	
 }
