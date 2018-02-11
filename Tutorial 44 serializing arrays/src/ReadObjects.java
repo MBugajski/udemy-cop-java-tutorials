@@ -19,15 +19,15 @@ public class ReadObjects {
 			@SuppressWarnings("unchecked")
 			ArrayList<Person> peopleList = (ArrayList<Person>)ois.readObject();
 
-			//Reading entire array
-			for(Person person: people) {
-				System.out.println(person);
-			}
-			
-			//Reading entire arraylist
-			for(Person person: peopleList) {
-				System.out.println(person);
-			}
+//			//Reading entire array
+//			for(Person person: people) {
+//				System.out.println(person);
+//			}
+//			
+//			//Reading entire arraylist
+//			for(Person person: peopleList) {
+//				System.out.println(person);
+//			}
 			
 			
 			//Reading objects one by one
